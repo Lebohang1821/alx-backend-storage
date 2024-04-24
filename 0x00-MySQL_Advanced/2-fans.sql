@@ -1,4 +1,4 @@
--- Ranks country origins of bands
+-- It grades country origins of bands
 SELECT origin, SUM(fans) AS nb_fans
     FROM metal_bands
     GROUP BY origin
