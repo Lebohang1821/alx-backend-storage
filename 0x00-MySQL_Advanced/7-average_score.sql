@@ -1,5 +1,4 @@
--- Average score
---
+--  It calculates average score
 delimiter //
 CREATE PROCEDURE ComputeAverageScoreForUser (
 	IN user_id INT
