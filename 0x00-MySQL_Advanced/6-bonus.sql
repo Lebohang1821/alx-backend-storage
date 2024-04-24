@@ -1,4 +1,4 @@
--- created a stored procedure that adds a new correction
+-- It Developed stored procedure to add new correction
 DROP PROCEDURE IF EXISTS AddBonus;
 DELIMITER $$
 CREATE PROCEDURE AddBonus (user_id INT, project_name VARCHAR(255), score FLOAT)
