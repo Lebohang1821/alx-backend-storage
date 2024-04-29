@@ -1,2 +1,2 @@
-// inserts in collcetion
+// It inserts documents into collection
 db.school.insert({name: "Holberton school"});
