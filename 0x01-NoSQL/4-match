@@ -1,2 +1,2 @@
-// lists all matches
+// It lists * documents matching "Holberton school"
 db.school.find({name: "Holberton school"}).forEach(printjson);
