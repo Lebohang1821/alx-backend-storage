@@ -1,2 +1,2 @@
-// Displays number of documents
+// It gets number of documents in collection
 db.school.find().count();
