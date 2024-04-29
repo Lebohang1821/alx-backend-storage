@@ -1,2 +1,2 @@
-// Regex filter
+// It find names starting with "Holberton" using regex
 db.school.find({name: /Holberton.*/}).forEach(printjson);
