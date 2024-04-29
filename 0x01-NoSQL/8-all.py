@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 '''
-Function lists all documents in a collcetion
+It lists * documents in collcetion
 '''
 
 
 def list_all(mongo_collection):
-  '''list all docs'''
+  '''It shows * docs'''
   return [doc for doc in mongo_collection.find()]
