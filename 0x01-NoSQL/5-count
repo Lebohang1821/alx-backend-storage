@@ -1,0 +1,2 @@
+// Displays number of documents
+db.school.find().count();

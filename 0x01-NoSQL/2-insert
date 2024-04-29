@@ -1,0 +1,2 @@
+// inserts in collcetion
+db.school.insert({name: "Holberton school"});
