@@ -1,2 +1,2 @@
-// command Deletes documents
+// It deletes documents from 'school' collection
 db.school.deleteMany({name: "Holberton school"});
