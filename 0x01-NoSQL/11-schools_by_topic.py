@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 '''
-Returns lists of school
+It returns lists of schools
 '''
 
 
 def schools_by_topic(mongo_collection, topic):
-  '''List of school having a specified topic'''
+  '''It list schools having specified topic'''
   topic_filter = {
     'topics': {
       '$elemMatch': {
