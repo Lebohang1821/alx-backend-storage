@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-''' Using Redis NoSQL data storage'''
+'''Implementing Redis for NoSQL data storage'''
 import uuid
 import redis
 from functools import wraps
