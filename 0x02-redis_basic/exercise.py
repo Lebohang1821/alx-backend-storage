@@ -66,7 +66,7 @@ class Cache:
     '''Wrapper for storing data in Redis
     '''
     def __init__(self) -> None:
-        '''Initializes a Cache instance.
+        '''It creates Cache instance
         '''
         self._redis = redis.Redis()
         self._redis.flushdb(True)
