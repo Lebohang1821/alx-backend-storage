@@ -91,7 +91,7 @@ class Cache:
         return fn(data) if fn is not None else data
 
     def get_str(self, key: str) -> str:
-        '''Retrieves a string value from a Redis data storage.
+        '''It gets string value from Redis storage
         '''
         return self.get(key, lambda x: x.decode('utf-8'))
 
