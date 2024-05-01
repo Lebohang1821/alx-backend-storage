@@ -7,7 +7,7 @@ from typing import Any, Callable, Union
 
 
 def count_calls(method: Callable) -> Callable:
-    '''Tracks the number of calls made to a method in a Cache class.
+    '''It tracks frequency of method calls within Cache class
     '''
     @wraps(method)
     def invoker(self, *args, **kwargs) -> Any:
