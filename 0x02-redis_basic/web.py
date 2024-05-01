@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" Redis Module """
+"""Developing expiring web cache and tracker"""
 
 from functools import wraps
 import redis
